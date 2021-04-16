@@ -31,7 +31,7 @@ function inputAreas(firstItem, secondItem, thitdItem, flag) {
                     item = 2;
                     break;
             }
-        }
+        };
     }
     return Math.max.apply(null, arrayData);
 }

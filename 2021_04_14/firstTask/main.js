@@ -17,7 +17,7 @@ if (isAgree) {
                     inputData[item] = +prompt("H must be less than 1000, enter again:", '');
                     break;
             }
-        }
+        };
     }
     /*функция для расчета боковой площади прямоугольного параллелепипеда равна S = 2*c*(a+b)*/
     alert(2 * H * (L + W) / 16);
