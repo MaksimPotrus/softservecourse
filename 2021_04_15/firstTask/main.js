@@ -5,7 +5,6 @@ var isAgree = confirm("The array was filled with random elements, do you want to
 if (isAgree) {
     array = manuallyArrayInput(array);
 }
-console.log(array);
 console.log(minFinder(array));
 
 function matrixArray(rows, columns) {
@@ -32,7 +31,6 @@ function manuallyArrayInput(array) {
 function minFinder(array) {
     let min = []; 
     let calculation = 0;
-    console.log(min);
     for (var i = 0; i < array.length; i++) {
         min[i] = Math.min.apply(null, array[i]);
         calculation+= min[i];

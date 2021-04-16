@@ -1,5 +1,4 @@
 let count = prompt("Enter string:", "");
-console.log(count);
 console.log(shortest(count).length);
 
 function shortest(string){
