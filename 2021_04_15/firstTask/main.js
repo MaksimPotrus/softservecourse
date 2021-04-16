@@ -31,11 +31,11 @@ function manuallyArrayInput(array) {
 
 function minFinder(array) {
     let min = []; 
-    let calc = 0;
+    let calculation = 0;
     console.log(min);
     for (var i = 0; i < array.length; i++) {
         min[i] = Math.min.apply(null, array[i]);
-        calc+= min[i];
+        calculation+= min[i];
     }
-    return calc;
+    return calculation;
 }
