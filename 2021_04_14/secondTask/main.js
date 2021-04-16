@@ -15,7 +15,7 @@ if (isAgree) {
 
 function inputAreas(firstItem, secondItem, thitdItem, flag) {
     let arrayData = [firstItem, secondItem, thitdItem];
-    for (let item = 0; item < 3; item++) {
+    for (let item = 0; item < arrayData.length; item++) {
         while (arrayData[item] > 100) {
             switch (item) {
                 case 0:
