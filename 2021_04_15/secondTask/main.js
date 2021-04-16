@@ -3,9 +3,9 @@ var count = +prompt("Amount of elements:", "");
 for (var i=0; i<count; i++){
     array[i]=parseInt(prompt("Please enter an integer:", ""));
 }
-alert(maxtwo_wrong(array));
+alert(twoMaxElements(array));
 
-function maxtwo_wrong(array){
+function twoMaxElements(array){
     var firstMax = -Infinity;
     var secondMax = -Infinity;
 
