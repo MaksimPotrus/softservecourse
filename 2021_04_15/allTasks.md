@@ -1,3 +1,7 @@
+## All task on 2021.04.14
+#
+## Task 1
+```js
 const m = +prompt("Enter rows:", '');
 const n = +prompt("Enter columns:", '');
 var array = matrixArray(m, n);
@@ -39,3 +43,42 @@ function minFinder(array) {
     }
     return calc;
 }
+```
+## Task 2
+```js
+var array = [];
+var count = +prompt("Amount of elements:", "");
+for (var i=0; i<count; i++){
+    array[i]=parseInt(prompt("Please enter an integer:", ""));
+}
+alert(twoMaxElements(array));
+
+function twoMaxElements(array){
+    var firstMax = -Infinity;
+    var secondMax = -Infinity;
+
+    for (var i=0; i < array.length; i++) {
+        if (array[i] > firstMax) {
+            firstMax = array[i];
+        }
+    }
+    for (var i=0; i < array.length; i++) {
+        if (array[i] > secondMax && array[i] < firstMax) {
+            secondMax = array[i];
+        }
+    } 
+    return [firstMax,secondMax];
+}
+```
+## Task 3
+```js
+let count = prompt("Enter string:", "");
+console.log(count);
+console.log(shortest(count).length);
+
+function shortest(string){
+  return string.split(" ").sort(function(a,b){
+    return a.length + b.length;
+  }).pop()
+ }
+ ```
