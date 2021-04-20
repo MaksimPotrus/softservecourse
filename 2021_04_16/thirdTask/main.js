@@ -28,7 +28,3 @@ function inputData(audiencesQuanity, necessaryСhairs) {
   console.log(temporaryArray);
   return counterArray;
 }
-
-function getFreeChairsInRoom(temporaryArray, necessaryСhairs, audiencesQuanity) {
-  
-}
