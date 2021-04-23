@@ -16,3 +16,10 @@
 - Task 1: Count IP Addresses
 - Task 2: Morse code decoder
 - Task 3: Chronos's task
+### 2021.04.20
+- Task 1: Quipu Calculator
+- Task 2: Find the Partition with Maximum Product Value
+- Task 3: Vasya - Clerk
+### 2021.04.22
+- Task 1: Hex class
+- Task 2: Interactive Dictionary
