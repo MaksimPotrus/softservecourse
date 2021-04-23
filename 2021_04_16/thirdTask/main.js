@@ -22,7 +22,7 @@ function inputData(audiencesQuanity, necessaryСhairs) {
     while (necessaryСhairs > 0 && temporaryArray[index] > 0) {
       temporaryArray[index]--;
       necessaryСhairs--;
-      counterArray[index]+=counterArray[index];
+      counterArray[index] += counterArray[index];
     };
   }
   console.log(temporaryArray);
